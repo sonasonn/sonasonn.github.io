@@ -1,38 +1,17 @@
+# Auto detect text files and perform LF normalization
+* text=auto
 
+# Custom for Visual Studio
+*.cs     diff=csharp
 
-    <!DOCTYPE html>
-    <!--
-
-    [if lte IE 9]>     <html class="no-js ie"> <![endi…
-
-    -->
-    <!--
-
-    [if gt IE 9]><!
-
-    -->
-    <html class="no-js">
-
-    <!--
-
-    <![endif]
-
-    -->
-    <head></head>
-    <body style="" preview="edit" device="desktop">
-        <div id="editor_preloader" class="ready"></div>
-        <script src="http://static.parastorage.com/services/bootstrap/2.1127.11/javascript/bootstrap.min.js"></script>
-        <script src="http://static.parastorage.com/services/web/2.1127.11/deployeditor.min.js"></script>
-        <div id="EDITOR_STRUCTURE"></div>
-        <script type="text/javascript"></script>
-        <script type="text/javascript"></script>
-        <script type="text/javascript"></script>
-        <div id="dc_vk_code" style="display:none"></div>
-        <div id="ReflowTestContainer" style="width: 1px; height: 1px; overflow: hidden;"></div>
-        <div id="fb-root" class=" fb_reset"></div>
-        <iframe style="display: none;" src="http://static.wix.com/services/third-party/misc/GoogleTagManagerIframe.html?fromeditor"></iframe>
-        <script src="http://js-agent.newrelic.com/nr-536.min.js"></script>
-        <div id="SL_shadow_translator"></div>
-    </body>
-
-</html>
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
